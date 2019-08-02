@@ -1,24 +1,28 @@
 import React from "react";
 import styled from "styled-components";
-import { ReactComponent as Onboard } from './onboard.svg';
+import welcome from './welcome.png';
 import AddIdeaAction from "../NavBar/AddIdeaAction";
 
 const StartScreen = () => {
   return(
     <Wrapper>
-      <Onboard />
-        <HelpTextTitle>More Than An Idea Board</HelpTextTitle>
-        <HelpTextDesc>
-          Clear visible mammer to brainstorm, create plans, manage projects and more.
-        </HelpTextDesc>
-        <HelpList>
-          <HelpLitItem><HelpLitItemCount>1</HelpLitItemCount>Instant Add/Edit</HelpLitItem>
-          <HelpLitItem><HelpLitItemCount>2</HelpLitItemCount>Permanent storage</HelpLitItem>
-          <HelpLitItem><HelpLitItemCount>3</HelpLitItemCount>Offline availablity</HelpLitItem>
-          <HelpLitItem><HelpLitItemCount>4</HelpLitItemCount>Multi facet sorting</HelpLitItem>
-          <HelpLitItem><HelpLitItemCount>5</HelpLitItemCount>Mobile Friendly</HelpLitItem>
-        </HelpList>
+      <Welcome src={welcome} alt="Welcome" />
+      <HelpTextTitle>More Than An Idea Board</HelpTextTitle>
+      <HelpTextDesc>
+        Clear visible mammer to brainstorm, create plans, manage projects and more.
+      </HelpTextDesc>
       <AddIdeaAction/>
+      <HelpListTitle>
+        Highlighted Feature List
+      </HelpListTitle>
+      <HelpList>
+        <HelpLitItem>Instant Add/Edit</HelpLitItem>
+        <HelpLitItem>Update Notifications</HelpLitItem>
+        <HelpLitItem>Permanent storage</HelpLitItem>
+        <HelpLitItem>Offline availablity</HelpLitItem>
+        <HelpLitItem>Multi facet sorting</HelpLitItem>
+        <HelpLitItem>Mobile Friendly</HelpLitItem>
+      </HelpList>
     </Wrapper>
   )
 }
@@ -39,6 +43,12 @@ const Wrapper = styled.div`
   text-align: center;
 `;
 
+const Welcome = styled.img`
+  width: 140px;
+  height: 140px;
+  margin: 42px auto 0
+`;
+
 const HelpTextTitle = styled.h2`
   color: ${props => props.theme.textColor};
   font-size: 24px;
@@ -51,31 +61,24 @@ const HelpTextDesc = styled.p`
 `
 const HelpList = styled.ul`
   text-align: initial;
-  list-style: none;
+  padding-left: 25%;
   color: ${props => props.theme.textColorLight};
   margin-bottom: 32px;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 32px;
 `
 const HelpLitItem = styled.li`
   font-size: 16px;
   padding: 16px;
   background: #fff;
-  border: 1px solid #eee;
   margin: 12px 0;
-  box-shadow: 0 0 4px 0 #ddd;
+  width: 40%;
 `
-
-const HelpLitItemCount = styled.span`
-  background: #448aff;
-  border-radius: 25px;
-  color: #fff;
-  font-size: 24px;
-  font-weight: 300;
-  height: 50px;
-  line-height: 50px;
+const HelpListTitle = styled.div`
+  margin-top: 50px;
   text-align: center;
-  width: 50px;
-  display: inline-block;
-  margin-right: 32px;
+  font-weight: bold;
 `;
 export default StartScreen;

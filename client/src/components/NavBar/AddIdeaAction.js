@@ -14,20 +14,20 @@ const AddIdeaAction = ({ createNewIdea }) => {
  *  STYLES
  */
 const Wrapper = styled.button`
-    color: ${props => props.theme.textColorPrimary};
+    color: ${props => props.theme.textColorInvert};
     padding: 16px 24px;
     font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
     box-sizing: border-box;
+    font-weight: bold;
     min-width: 150px;
     text-align: center;
     border: 1px solid ${props => props.theme.textColorPrimary};
-    background-color: ${props => props.theme.backgroundColor};
+    background-color: ${props => props.theme.primaryColorLight};
     &:hover{
         transition: .3s;
-        color: ${props => props.theme.textColorInvert};
-        background-color: ${props => props.theme.primaryColorLight};
+        color: ${props => props.theme.textColorPrimary};
     }
     &:active{
         color: ${props => props.theme.primaryColor};
