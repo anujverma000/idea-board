@@ -20,7 +20,7 @@ const SortMenu = ({ sort }) => {
   }
 
   return(
-    <Wrapper ref={ node } onClick={() => setDisplayMenu(true) }>
+    <Wrapper ref={ node } onClick={() => setDisplayMenu(!displayMenu) }>
       <Sort>Sort</Sort>
       { displayMenu &&
         <OptionsMenu>
