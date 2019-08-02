@@ -2,84 +2,71 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="sc-kpOJdX gYdMXA"
+  className="sc-dxgOiQ fxKPQl"
 >
   <div
     className="sc-jzJRlG jTGdR"
   >
-    <svg>
-      onboard.svg
-    </svg>
+    <img
+      alt="Welcome"
+      className="sc-cSHVUG Jeizk"
+      src="welcome.png"
+    />
     <h2
-      className="sc-cSHVUG ikkymD"
+      className="sc-kAzzGY iOujjq"
     >
       More Than An Idea Board
     </h2>
     <p
-      className="sc-kAzzGY gPKrSq"
+      className="sc-chPdSV iftqCN"
     >
       Clear visible mammer to brainstorm, create plans, manage projects and more.
     </p>
-    <ul
-      className="sc-chPdSV bSOKLt"
-    >
-      <li
-        className="sc-kgoBCf gWhxXm"
-      >
-        <span
-          className="sc-kGXeez iSCrJL"
-        >
-          1
-        </span>
-        Instant Add/Edit
-      </li>
-      <li
-        className="sc-kgoBCf gWhxXm"
-      >
-        <span
-          className="sc-kGXeez iSCrJL"
-        >
-          2
-        </span>
-        Permanent storage
-      </li>
-      <li
-        className="sc-kgoBCf gWhxXm"
-      >
-        <span
-          className="sc-kGXeez iSCrJL"
-        >
-          3
-        </span>
-        Offline availablity
-      </li>
-      <li
-        className="sc-kgoBCf gWhxXm"
-      >
-        <span
-          className="sc-kGXeez iSCrJL"
-        >
-          4
-        </span>
-        Multi facet sorting
-      </li>
-      <li
-        className="sc-kgoBCf gWhxXm"
-      >
-        <span
-          className="sc-kGXeez iSCrJL"
-        >
-          5
-        </span>
-        Mobile Friendly
-      </li>
-    </ul>
     <button
-      className="sc-VigVT hGPlZo"
+      className="sc-VigVT hZJfLK"
       onClick={[Function]}
     >
       Add new idea
     </button>
+    <div
+      className="sc-kpOJdX jePtxa"
+    >
+      Highlighted Feature List
+    </div>
+    <ul
+      className="sc-kgoBCf ecWeAn"
+    >
+      <li
+        className="sc-kGXeez dOdpmF"
+      >
+        Instant Add/Edit
+      </li>
+      <li
+        className="sc-kGXeez dOdpmF"
+      >
+        Update Notifications
+      </li>
+      <li
+        className="sc-kGXeez dOdpmF"
+      >
+        Permanent storage
+      </li>
+      <li
+        className="sc-kGXeez dOdpmF"
+      >
+        Offline availablity
+      </li>
+      <li
+        className="sc-kGXeez dOdpmF"
+      >
+        Multi facet sorting
+      </li>
+      <li
+        className="sc-kGXeez dOdpmF"
+      >
+        Mobile Friendly
+      </li>
+    </ul>
   </div>
 </div>
 `;

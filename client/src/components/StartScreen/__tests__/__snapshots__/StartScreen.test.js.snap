@@ -4,78 +4,65 @@ exports[`renders correctly 1`] = `
 <div
   className="sc-bwzfXH fNQkPj"
 >
-  <svg>
-    onboard.svg
-  </svg>
+  <img
+    alt="Welcome"
+    className="sc-htpNat jBzAON"
+    src="welcome.png"
+  />
   <h2
-    className="sc-htpNat dHqvBg"
+    className="sc-bxivhb bxbhqb"
   >
     More Than An Idea Board
   </h2>
   <p
-    className="sc-bxivhb kzEsDs"
+    className="sc-ifAKCX bbnWBz"
   >
     Clear visible mammer to brainstorm, create plans, manage projects and more.
   </p>
-  <ul
-    className="sc-ifAKCX DwUVg"
-  >
-    <li
-      className="sc-EHOje hOHIzN"
-    >
-      <span
-        className="sc-bZQynM eHGrEe"
-      >
-        1
-      </span>
-      Instant Add/Edit
-    </li>
-    <li
-      className="sc-EHOje hOHIzN"
-    >
-      <span
-        className="sc-bZQynM eHGrEe"
-      >
-        2
-      </span>
-      Permanent storage
-    </li>
-    <li
-      className="sc-EHOje hOHIzN"
-    >
-      <span
-        className="sc-bZQynM eHGrEe"
-      >
-        3
-      </span>
-      Offline availablity
-    </li>
-    <li
-      className="sc-EHOje hOHIzN"
-    >
-      <span
-        className="sc-bZQynM eHGrEe"
-      >
-        4
-      </span>
-      Multi facet sorting
-    </li>
-    <li
-      className="sc-EHOje hOHIzN"
-    >
-      <span
-        className="sc-bZQynM eHGrEe"
-      >
-        5
-      </span>
-      Mobile Friendly
-    </li>
-  </ul>
   <button
-    className="sc-bdVaJa clmorv"
+    className="sc-bdVaJa krSCzb"
     onClick={[Function]}
   >
     Add new idea
   </button>
+  <div
+    className="sc-gzVnrw dBkTsN"
+  >
+    Highlighted Feature List
+  </div>
+  <ul
+    className="sc-EHOje cWxXhy"
+  >
+    <li
+      className="sc-bZQynM gTilDZ"
+    >
+      Instant Add/Edit
+    </li>
+    <li
+      className="sc-bZQynM gTilDZ"
+    >
+      Update Notifications
+    </li>
+    <li
+      className="sc-bZQynM gTilDZ"
+    >
+      Permanent storage
+    </li>
+    <li
+      className="sc-bZQynM gTilDZ"
+    >
+      Offline availablity
+    </li>
+    <li
+      className="sc-bZQynM gTilDZ"
+    >
+      Multi facet sorting
+    </li>
+    <li
+      className="sc-bZQynM gTilDZ"
+    >
+      Mobile Friendly
+    </li>
+  </ul>
 </div>
 `;

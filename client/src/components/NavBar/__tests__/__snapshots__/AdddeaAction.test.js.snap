@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <button
-  className="sc-bdVaJa clmorv"
+  className="sc-bdVaJa krSCzb"
   onClick={[Function]}
 >
   Add new idea
