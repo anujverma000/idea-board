@@ -1,0 +1,45 @@
+version: "3.7"
+services:
+    client:
+        image: mhart/alpine-node
+        restart: always
+        ports:
+            - "3000:3000"
+        working_dir: /client/src/app
+        volumes:
+            - ./client:/client/src/app
+        entrypoint: ["yarn", "start"]
+        links:
+            - api
+        networks:
+            - app-network
+    api:
+        build:
+          context: ./api
+          dockerfile: Dockerfile
+        restart: always
+        ports:
+            - "9000:9000"
+        volumes:
+            - ./api:/api
+            - /api/node_modules
+        depends_on:
+            - mongodb
+        environment:
+            WAIT_HOSTS: mongodb:27017
+        networks:
+            - app-network
+    mongodb:
+        image: mongo
+        restart: always
+        container_name: mongodb
+        volumes:
+            - ./data-node:/data/db
+        ports:
+            - 27017:27017
+        command: mongod --noauth --smallfiles
+        networks:
+            - app-network
+networks:
+    app-network:
+        driver: bridge

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<header
+  className="sc-bdVaJa iLRbNu"
+>
+  <svg>
+    logo.svg
+  </svg>
+  <div
+    className="sc-bwzfXH fNtmiq"
+  >
+     BCG Idea Board 
+  </div>
+</header>
+`;

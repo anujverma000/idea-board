@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sc-bwzfXH fNQkPj"
+>
+  <svg>
+    onboard.svg
+  </svg>
+  <h2
+    className="sc-htpNat dHqvBg"
+  >
+    More Than An Idea Board
+  </h2>
+  <p
+    className="sc-bxivhb kzEsDs"
+  >
+    Clear visible mammer to brainstorm, create plans, manage projects and more.
+  </p>
+  <ul
+    className="sc-ifAKCX DwUVg"
+  >
+    <li
+      className="sc-EHOje hOHIzN"
+    >
+      <span
+        className="sc-bZQynM eHGrEe"
+      >
+        1
+      </span>
+      Instant Add/Edit
+    </li>
+    <li
+      className="sc-EHOje hOHIzN"
+    >
+      <span
+        className="sc-bZQynM eHGrEe"
+      >
+        2
+      </span>
+      Permanent storage
+    </li>
+    <li
+      className="sc-EHOje hOHIzN"
+    >
+      <span
+        className="sc-bZQynM eHGrEe"
+      >
+        3
+      </span>
+      Offline availablity
+    </li>
+    <li
+      className="sc-EHOje hOHIzN"
+    >
+      <span
+        className="sc-bZQynM eHGrEe"
+      >
+        4
+      </span>
+      Multi facet sorting
+    </li>
+    <li
+      className="sc-EHOje hOHIzN"
+    >
+      <span
+        className="sc-bZQynM eHGrEe"
+      >
+        5
+      </span>
+      Mobile Friendly
+    </li>
+  </ul>
+  <button
+    className="sc-bdVaJa clmorv"
+    onClick={[Function]}
+  >
+    Add new idea
+  </button>
+</div>
+`;

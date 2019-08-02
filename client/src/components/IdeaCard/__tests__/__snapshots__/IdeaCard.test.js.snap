@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div
+    className="sc-EHOje jesDKV"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="sc-bxivhb fLpZN"
+    >
+      Today, 12:00 AM
+    </div>
+    <input
+      autoFocus={false}
+      className="sc-htpNat inEueX"
+      maxLength={140}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onKeyUp={[Function]}
+      placeholder="Add Idea"
+      type="text"
+      value="Test Idea Title"
+    />
+    <textarea
+      className="sc-bdVaJa jTxIQE"
+      maxLength={140}
+      onBlur={[Function]}
+      onChange={[Function]}
+      placeholder="Description..."
+      type="text"
+      value="Test Idea Body"
+    />
+  </div>,
+  <div
+    style={
+      Object {
+        "bottom": 0,
+        "position": "fixed",
+        "right": 0,
+      }
+    }
+  />,
+]
+`;

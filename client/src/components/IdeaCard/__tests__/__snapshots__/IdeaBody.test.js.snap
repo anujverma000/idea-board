@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<textarea
+  className="sc-bdVaJa jTxIQE"
+  maxLength={140}
+  onBlur={[Function]}
+  onChange={[Function]}
+  placeholder="Description..."
+  type="text"
+  value="Test Idea Body"
+/>
+`;

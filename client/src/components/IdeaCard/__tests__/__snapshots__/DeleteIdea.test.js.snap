@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<span
+  className="sc-bdVaJa fnZpRG"
+  onClick={[Function]}
+>
+  <svg>
+    trash.svg
+  </svg>
+</span>
+`;

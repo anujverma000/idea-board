@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<input
+  autoFocus={false}
+  className="sc-bdVaJa eTVgRM"
+  maxLength={140}
+  onBlur={[Function]}
+  onChange={[Function]}
+  onKeyUp={[Function]}
+  placeholder="Add Idea"
+  type="text"
+  value="Test Idea Title"
+/>
+`;

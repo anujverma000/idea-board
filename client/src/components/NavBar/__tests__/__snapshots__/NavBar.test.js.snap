@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<nav
+  className="sc-htoDjs gbJRkw"
+>
+  <div
+    className="sc-ifAKCX bqyzQp"
+    onClick={[Function]}
+  >
+    <div
+      className="sc-EHOje dFQdKu"
+    >
+      Sort
+    </div>
+  </div>
+  <button
+    className="sc-gzVnrw kPHEBl"
+    onClick={[Function]}
+  >
+    Add new idea
+  </button>
+</nav>
+`;
