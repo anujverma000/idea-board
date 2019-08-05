@@ -1,6 +1,10 @@
 ## Idea Board
 Clear visible mammer to brainstorm, create plans, manage projects and more.
 
+### install dependencies
+  - `cd client`
+  - `yarn isntalll`
+
 ### `docker-compose up`
 
  - Runs Client, Server and MongoDb.
